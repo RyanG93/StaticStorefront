@@ -1,4 +1,4 @@
-/* Common elements, header, nav bars, sidebar section, Main section, footer in order /*
+ /* Common elements, header, nav bars, sidebar section, Main section, footer in order  */
 
 body {
     font-size: 67.5%;
@@ -8,12 +8,12 @@ body {
     margin: 0;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
-    background size: 100% 100%;
+    background-size: 100% 100%;
     -o-background-size: 100% 100%;
 }
 
 h1 {
-    color: #2BA967
+    color: #2BA967;
     font-size: 2.0em 0;
     margin: 0.5em 0 0.5em 0;
     padding: 0;
@@ -57,4 +57,10 @@ nav li a, nav li a:visited {
 nav li a:hover {
     color: #C64322;
     background-color: rgba(252,251,243,0.75);
+}
+
+.fruit-pic {
+    height: 40%;
+    width: 40%;
+    
 }
