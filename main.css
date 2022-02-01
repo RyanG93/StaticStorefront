@@ -1,0 +1,60 @@
+/* Common elements, header, nav bars, sidebar section, Main section, footer in order /*
+
+body {
+    font-size: 67.5%;
+    font-family: Tahoma, Geneva, sans-serif;
+    background: #39150C url(img/blue-background.jpg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+h1 {
+    color: #2BA967
+    font-size: 2.0em 0;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+h2 {
+    color: #745b2f;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #555;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+
+nav {
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0 ;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #C64322;
+    padding: 0.3em 0.6em;
+}
+
+nav li a:hover {
+    color: #C64322;
+    background-color: rgba(252,251,243,0.75);
+}
